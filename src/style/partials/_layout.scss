@@ -1,0 +1,140 @@
+:root{
+    --color-orange: #F09C65;
+    --color-yellow: #FCDC94;
+    --color-lightgreen: #C7CFA0;
+    --color-green: #78AAA8;
+    --color-darkgreen: #40684E;
+    --color-dark: #212529;
+    // colori tipologie
+    --Ristorante: #62653E;
+    --Pizzeria:  #478688;
+    --Messicano:  #98A089;
+    --Bar:  #EB926A;
+    --Sushi:  #C4C3BA;
+    --Burgerheria:  #D5A633;
+    --Vegano:  #C7CB97;
+    --Gluten-free:  #F8B2BC;
+    --Gelateria:  #B8BDA6;
+    --Pub:  #A0AC5B;
+}
+
+//badge
+.Ristorante{
+  background-color: var(--Ristorante);
+}
+.Pizzeria{
+  background-color: var(--Pizzeria);
+}
+.Messicano{
+  background-color: var(--Messicano);
+}
+.Bar{
+  background-color: var(--Bar);
+}
+.Sushi{
+  background-color: var(--Sushi);
+}
+.Burgerheria{
+  background-color: var(--Burgerheria);
+}
+.Vegano{
+  background-color: var(--Vegano);
+}
+.Gluten-free{
+  background-color: var(--Gluten-free);
+}
+.Gelateria{
+  background-color: var(--Gelateria);
+}
+.Pub{
+  background-color: var(--Pub);
+}
+
+ .type-badge{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 999px;
+  padding: 0 6px;
+  height: 30px;
+  cursor: pointer;
+}
+
+*{
+    // <weight>: Use a value from 100 to 900
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+#app {
+    background-color: var(--color-yellow);
+    main{
+      margin-top: 115px;
+    }
+}
+
+.back-btn{
+  border-radius: 100%;
+  aspect-ratio: 1/1;
+}
+
+.btn-orange{
+    background-color: var(--color-orange);
+    color: var(--color-dark);
+    font-weight: 600;
+
+    &:hover {
+        transform: scale(1.1);
+    }
+}
+
+.btn-dark {
+    background-color: var(--color-dark);
+    color: var(--color-yellow);
+    font-weight: 600;
+
+    &:hover {
+        transform: scale(1.1);
+    }
+}
+
+.btn-green {
+  background-color: var(--color-green);
+  color: var(--color-dark);
+  font-weight: 600;
+
+  &:hover {
+      transform: scale(1.1);
+  }
+}
+
+.bg-green{
+  background-color: var(--color-green);
+}
+
+.bg-hero {
+  background-color: rgba(255, 221, 149,0.7);
+  padding: 25px;
+  border-radius: 25px;
+
+}
+
+.full-height {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+
+}
+
+.bg-white{
+  background-color: white;
+}
+
+.bg-orange{
+  background-color:var(--color-orange);
+}
+
+.width-btn{
+  width: 40px;
+}
